@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @RestController
 public class ResponseExceptionHandler extends ResponseEntityExceptionHandler {
 
-    /*@ExceptionHandler(Exception.class)
+    @ExceptionHandler(Exception.class)
     public final ResponseEntity<ExceptionResponse> manejarTodasExcepciones(Exception ex, WebRequest request) {
         ExceptionResponse er = new ExceptionResponse(LocalDateTime.now(), ex.getMessage(), request.getDescription(false));
         return new ResponseEntity<ExceptionResponse>(er, HttpStatus.INTERNAL_SERVER_ERROR);
@@ -34,5 +34,5 @@ public class ResponseExceptionHandler extends ResponseEntityExceptionHandler {
         return new ResponseEntity<Object>(er, HttpStatus.BAD_REQUEST);
     }
 
-     */
+
 }

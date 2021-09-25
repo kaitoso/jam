@@ -4,7 +4,7 @@ package com.cod.jam.exception;
 import java.time.LocalDateTime;
 
 public class ExceptionResponse {
-/*
+
     private LocalDateTime timestamp;
     private String mensaje;
     private String detalles;
@@ -37,6 +37,6 @@ public class ExceptionResponse {
 
     public void setDetalles(String detalles) {
         this.detalles = detalles;
-    }*/
+    }
 }
 
